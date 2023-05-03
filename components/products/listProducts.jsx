@@ -9,7 +9,7 @@ const ListProducts = (props) => {
 
         <>
             <h4>Products List</h4>
-            <ol className="ist-group list-group-numbered list__container">
+            <ol className="list-group list-group-numbered list__container">
                 {
                     products.map((product) => {
                         return (
