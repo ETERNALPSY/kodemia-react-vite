@@ -7,6 +7,7 @@ import PostContainer from '../components/posts/postContainer'
 import PostArticle from '../components/posts/postArticle'
 import ListUser from '../components/users/listUser'
 import ListProducts from '../components/products/listProducts'
+import CallAction from '../components/EventsDOM/EventsDom'
 
 
 
@@ -74,6 +75,7 @@ function App() {
             </PostContainer>
             <ListUser users={usuarios} />
             <ListProducts products={productos}/>
+            <CallAction/>
         </>
 
     )
