@@ -1,0 +1,14 @@
+.users {
+    color: rgb(206, 11, 196);
+    font-size: 2rem;
+    text-decoration: underline;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.list__users {
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 1rem;
+}

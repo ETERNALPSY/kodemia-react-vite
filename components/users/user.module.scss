@@ -1,0 +1,14 @@
+.user__card__item {
+    color: aqua;
+    .user__id {
+        border-radius: 50px;
+        padding: 5px;
+        border: 1px solid rgb(235, 94, 117);
+    }
+    p {
+        font-weight: bold;
+        &:hover {
+            scale: 120%;
+        }
+    }
+}
