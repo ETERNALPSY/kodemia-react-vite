@@ -8,7 +8,8 @@ import PostArticle from '../components/posts/postArticle'
 import ListUser from '../components/users/listUser'
 import ListProducts from '../components/products/listProducts'
 import CallAction from '../components/EventsDOM/EventsDom'
-
+import CounterApp from '../components/estados/counter'
+import ConditionalApp from '../components/estados/conditionalApp'
 
 
 
@@ -76,6 +77,8 @@ function App() {
             <ListUser users={usuarios} />
             <ListProducts products={productos}/>
             <CallAction/>
+            <CounterApp/>
+            <ConditionalApp/>
         </>
 
     )
